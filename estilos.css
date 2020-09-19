@@ -36,7 +36,7 @@ font-size: 1.3em;
 }
 .formulario__input:focus +
 .formulario__label{
-	margin-top: -35px;
+	margin-top: -135px;
 }
 .formulario__label{
 	padding-left: 15px;
@@ -55,5 +55,5 @@ font-size: 1.3em;
 }
 .fijar{
 	margin-top: -135px;
-	
+
 }

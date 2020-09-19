@@ -1,11 +1,10 @@
-var input = document.getElementsByClassName('formluario__input');
+var input = document.getElementsByClassName('formulario__input');
 for (var i =0; i < input.length; i++){
-input[].addEventListener('keyup', function(){
+input[i].addEventListener('keyup', function(){
     if(this.value.length>=1){
         this.nextElementSibling.classList.add('fijar');
     }else{
-
         this.nextElementSibling.classList.remove('fijar');
     }
-}
+});
 }
