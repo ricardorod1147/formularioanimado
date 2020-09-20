@@ -11,7 +11,7 @@ body {
 	margin: auto;
 	margin-top: 30px;
 	padding: 20px;
-	box-shadow: 0 0 20px 1px rgba(0,0,0,0.3);
+	box-shadow: 0 0 20px 1px rgba(0,0,0,1);
 	position: relative;
 }
 .formulario__titulo{
@@ -32,7 +32,7 @@ font-size: 1.3em;
 }
 
 .formulario__input:focus{
-	outline: 1px solid blue;
+	outline: 1px solid red;
 }
 .formulario__input:focus +
 .formulario__label{
@@ -48,7 +48,7 @@ font-size: 1.3em;
 }
 .formulario__sub {
 	background: rgba(0,0,0,0.7);
-	color: white;
+	color white;
 	padding: 10px 20px;
 	cursor: pointer;
 	border: none;
